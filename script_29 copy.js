@@ -90,3 +90,13 @@ function writeYourGenres () {
 writeYourGenres();
 
 
+function learnJS(lang, callback) {
+    console.log(`I learn ${lang}`);
+    callback();
+  }
+  
+  learnJS('JS', done)
+  
+  function done() {
+    console.log('i go')
+  }
